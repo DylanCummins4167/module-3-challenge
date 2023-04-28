@@ -1,5 +1,8 @@
 // Assignment code here
-
+String s1;
+  s1 = JOptionPane.showInputDialog("Password must contain at least 8 characters but no more than 128 characters:");
+String s2;
+  s2 = JOptionPane.showInputDialog("You must include at least one capitalized letter, one number, and one special character i.e. ! @ # $ %:");
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -16,7 +19,4 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-String s1;
-  s1 = JOptionPane.showInputDialog("Password must contain at least 8 characters but no more than 128 characters:");
-String s2;
-  s2 = JOptionPane.showInputDialog("You must include at least one capitalized letter, one number, and one special character i.e. ! @ # $ %:");
+
