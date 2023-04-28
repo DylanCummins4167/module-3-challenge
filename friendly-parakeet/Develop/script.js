@@ -1,5 +1,5 @@
 // Assignment code here
-generateBtn.addEventListener("click", writePassword);
+
 String s1;
   s1 = JOptionPane.showInputDialog("Password must contain at least 8 characters but no more than 128 characters:");
 String s2;
