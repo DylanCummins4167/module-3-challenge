@@ -1,11 +1,60 @@
 // Assignment code here
-javax. swing. *;
-String s1;
-  s1 = JOptionPane.showInputDialog("Password must contain at least 8 characters but no more than 128 characters:");
-String s2;
-  s2 = JOptionPane.showInputDialog("You must include at least one capitalized letter, one number, and one special character i.e. ! @ # $ %:");
+var specialCharacters = [
 
+  '@',
+  '%',
+  '+',
+  '\\',
+  '/',
+  "'",
+  '!',
+  '#',
+  '$',
+  '^',
+  '?',
+  ':',
+  '.',
+  ')',
+  '(',
+  '{',
+  '}',
+  '[',
+  ']',
+  '~',
+  '-',
+  '_',
+  ];
 
+var numericalCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+var lowerCasedCharacters = [
+  
+'a',
+'b',
+'c',
+'d',
+'e',
+'f',
+'g',
+'h',
+'i',
+'j',
+'k',
+'l',
+'m',
+'n',
+'o',
+'p',
+'q',
+'r',
+'s',
+'t',
+'u',
+'v',
+'w',
+'x',
+'y',
+'z',  
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
