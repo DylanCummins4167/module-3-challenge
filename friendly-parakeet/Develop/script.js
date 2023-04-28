@@ -4,7 +4,7 @@ String s1;
 String s2;
   s2 = JOptionPane.showInputDialog("You must include at least one capitalized letter, one number, and one special character i.e. ! @ # $ %:");
 
-object.onclick = function(){myScript};
+object.onclick = function(){script.js};
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
