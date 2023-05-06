@@ -1,1 +1,1 @@
-# module-3-challenge
+I have created a random password generator via javascript and updated HTML. When the "Generate Password" button is clicked, a series of prompts asks the user what to include in their random password. Based on their selections, a random password is generated when the button is clicked, and all of the prompts have been answered.
